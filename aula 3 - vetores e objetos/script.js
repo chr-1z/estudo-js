@@ -50,4 +50,4 @@ let novoArray = array10.slice(0, 3);
 console.log(novoArray);
 
 
-let object = { string: 'string', number: 1, boolean: true, array: }
+// let object = { string: 'string', number: 1, boolean: true, array: }
