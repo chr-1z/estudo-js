@@ -49,5 +49,15 @@ let array10 = ['string', 1, true, ['array1'], ['array2'], ['array3'], ['array4']
 let novoArray = array10.slice(0, 3);
 console.log(novoArray);
 
+// objeto
+let object = { string: 'string', number: 1, boolean: true, array: ['array'], objectInterno: { 
+    objectInterno: 'objeto interno'}};
 
-// let object = { string: 'string', number: 1, boolean: true, array: } 
+console.log(object.array);
+
+//desestruturação do objeto
+var string = object.string;
+console.log(string);
+
+var arrayInterno = object.array;
+console.log(arrayInterno)
