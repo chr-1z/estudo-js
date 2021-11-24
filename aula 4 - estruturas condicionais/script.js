@@ -26,5 +26,5 @@ switch (placar) {
         console.log('jogador 2 ganhou!');
         break;
     default:
-        console.log('Ninguém ganhou!');
+        console.log('Ninguém ganhou!'); 
 }
