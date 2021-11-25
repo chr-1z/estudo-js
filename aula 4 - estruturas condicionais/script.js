@@ -28,3 +28,53 @@ switch (placar) {
     default:
         console.log('Ninguém ganhou!'); 
 }
+
+// laços de repetição
+
+let array = ['valor1', 'valor2', 'valor3', 'valor4', 'valor5'];
+let object = { propriedade1: 'valor1', propriedade2: 'valor2', propriedade3: 'valor3' }
+
+
+// for - funciona até que a repetição da instrução seja falsa
+for (let indice = 0; indice < array.length; indice++){
+    console.log(indice);
+}
+
+
+// for/in - executa a repetição a partir de uma propriedade
+// com array
+for (let i in array) {
+    console.log(i);
+}
+
+// com object 
+for (i in object) {
+    console.log(i);
+}
+
+
+// for/off - executa a repetição a partir de valor
+// com array
+for (i of array) {
+    console.log(i);
+}
+
+// com object - não da de usar o for/off com objetos, conferir o console.log()
+for (i of object.propriedade1) {
+    console.log(i);
+}
+
+
+// while - executa uma instrução enquanto determinada condição for verdadeira
+var a = 0;
+while (a < 10) {
+    a++;
+    console.log(a);
+}
+
+// do/while
+
+do {
+    a++;
+    console.log(a);
+} while (a < 20)
